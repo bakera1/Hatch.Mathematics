@@ -1,0 +1,63 @@
+\documentclass[a4paper]{report}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{cancel}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+\bibliographystyle{apalike} 
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+
+\textsc{\Large Hatch Mathematics}\\[0.5cm]
+
+\HRule \\[0.4cm]
+{\huge \bfseries Tutorial Examples}\\[0.4cm]
+{\huge \bfseries Mathematics}\\[0.4cm]
+\HRule \\[1.5cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Alexander \textsc{Baker}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushright} \large
+\emph{Reader:} \\
+Alexander \textsc{Baker} 
+
+\end{flushright}
+\end{minipage}
+\\[4cm]
+\textsc{\LARGE Hatch Mathematics}\\[1.5cm]
+
+\vfill
+
+{\large \today}
+
+\end{center}
+
+\end{titlepage}
+
+\newpage
+
+\pagestyle{empty} %get rid of header/footer for toc page
+\tableofcontents %put toc in
+\cleardoublepage %start new page
+\pagestyle{plain} % put headers/footers back on
+\setcounter{page}{1} %reset the page counter
+
+\newpage
+
+\include{intro}
+
+\end{document}
