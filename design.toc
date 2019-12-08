@@ -14,3 +14,12 @@
 \contentsline {subsection}{\numberline {1.4.3}Rule 3}{4}%
 \contentsline {subsection}{\numberline {1.4.4}Rule 4}{5}%
 \contentsline {subsection}{\numberline {1.4.5}Exercise base and index}{5}%
+\contentsline {section}{\numberline {1.5}Venn Diagrams and Sets}{5}%
+\contentsline {subsection}{\numberline {1.5.1}$ \overline {A} \cap B$}{5}%
+\contentsline {subsubsection}{$ \overline {A}$}{6}%
+\contentsline {subsubsection}{$ B$}{6}%
+\contentsline {subsubsection}{$ \overline {A} \cap B$}{6}%
+\contentsline {subsubsection}{Union $\cap $}{6}%
+\contentsline {subsubsection}{Exercises}{6}%
+\contentsline {subsection}{\numberline {1.5.2}Conversion of Units}{7}%
+\contentsline {subsubsection}{Length}{7}%

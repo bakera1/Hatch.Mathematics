@@ -270,3 +270,97 @@ Simplify ...
   (x^{2})^{7} \times x^{-3}
 \end{equation}
 
+\section{Venn Diagrams and Sets}
+
+A Venn Diagram is a pictorial representation of the relationships between sets.
+
+$ \overline{A} \cap B$ - The intersection $\cap$ represents the overlap or overlay between two sets. It is often useful to consider these two sets separately and then try and mentally overlap these two separate diagrams. 
+
+\subsection{$ \overline{A} \cap B$}
+
+In the example below $ \overline{A} \cap B$ is split into two separate diagrams $ \overline{A}$ and $ B$ before we finally complete the overlap of $ \cap$ for $ \overline{A} \cap B$. Many students get confused thinking that the "overlap in the middle" represents $\cap$. This is not the case; we need to first construct both sides of the expression; in this case $ \overline{A} $ and  $B$ before we attempt to visualise where these two separate sets overlap.  As you can see from the third diagram below; this third set is more then the "bit in the middle" between the two sets.
+
+\subsubsection{$ \overline{A}$}
+
+\begin{tikzpicture}
+\filldraw[fill=gray] (-2,-2) rectangle (3,2);
+\scope % A \cap B
+\clip (0,0) circle (1);
+\fill[white] (1,0) circle (2);
+\endscope
+% outline
+\draw (0,0) circle (1)
+      (1,0) circle (1);
+\end{tikzpicture}
+
+\subsubsection{$ B$}
+
+\begin{tikzpicture}
+\filldraw[fill=white] (-2,-2) rectangle (3,2);
+\scope % A \cap B
+\clip (0,0) circle (2);
+\fill[gray] (1,0) circle (1);
+\endscope
+% outline
+\draw (0,0) circle (1)
+      (1,0) circle (1);
+\end{tikzpicture}
+
+\subsubsection{$ \overline{A} \cap B$}
+
+\begin{tikzpicture}
+\filldraw[fill=white] (-2,-2) rectangle (3,2); 
+\scope % A \cap B
+\clip (0,0) circle (2);
+\endscope
+\scope
+\clip (-1,-1) rectangle (2,1)
+      (0,0) circle (1);
+\fill[gray] (1,0) circle (1);
+\endscope
+% outline
+\draw (0,0) circle (1)
+      (1,0) circle (1);
+\end{tikzpicture}
+
+\subsubsection{Union $\cap$}
+
+The union of $\cap$ between two sets is simply another way of saying that we need to add the the the two separate sets together. In the middle example shown in figure \ref{fig:example1} we can see $ a \cap B$ as everything in $A$ added or $\cap$ or Union with everything in $B$. Whilst this example is trivial; in any case where we have a $\cap$ we just need to think about shading the region from both sides of the union.
+
+\subsubsection{Exercises}
+
+The following figure \ref{fig:example1} show how to shade regions of Venn Diagrams for two sets:
+A intersect B, A union B, A', A intersect B', A' intersect B, A union B',
+A' union B, A' union B' = (A intersect B)', A' intersect B' = (A union B)'.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1.25\textwidth]{set1}
+    \caption{Two set examples}
+    \label{fig:example1}
+\end{figure}
+
+Figure \ref{fig:example0} includes more examples of how to shade Venn Diagrams to represent the required regions of two sets and three sets where we are interested in the complement of a set.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.95\textwidth]{set0}
+    \caption{Set complement $\overline{A}$}
+    \label{fig:example0}
+\end{figure}
+
+\subsection{Conversion of Units}
+
+Often in examinations we are given measurements in units that are not fungible with each other. We need to be able to confidently move between units of measurement and mass; with the additional understanding to move between area and volume.
+
+\subsubsection{Length}
+
+We can start from the intuitive understanding from elementary maths and experience as below. 
+
+$ 1mm \equiv 0.1 cm $
+$ 100cm \equiv 1m $
+
+So how does knowing these help us say convert a length of $18.45 mm$ into meters? 
+
+
+
