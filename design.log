@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.1)  8 DEC 2019 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.1)  15 DEC 2019 17:59
 entering extended mode
 **./design.tex
 (design.tex
@@ -481,10 +481,10 @@ Chapter 1.
 <set1.png, id=44, 517.935pt x 346.896pt>
 File: set1.png Graphic file (type png)
 <use set1.png>
-Package pdftex.def Info: set1.png  used on input line 338.
+Package pdftex.def Info: set1.png  used on input line 335.
 (pdftex.def)             Requested size: 431.25pt x 288.8499pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 338--339
+Overfull \hbox (86.25pt too wide) in paragraph at lines 335--336
  [][] 
  []
 
@@ -495,41 +495,47 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <set0.png, id=49, 361.35pt x 199.947pt>
 File: set0.png Graphic file (type png)
 <use set0.png>
-Package pdftex.def Info: set0.png  used on input line 347.
+Package pdftex.def Info: set0.png  used on input line 344.
 (pdftex.def)             Requested size: 327.74895pt x 181.35406pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [7 <./set1.png>] [8 <./set0.png>] (design.aux (intro.aux)) ) 
+[7 <./set1.png>]
+<IMG_2968.jpg, id=54, 642.4pt x 481.8pt>
+File: IMG_2968.jpg Graphic file (type jpg)
+<use IMG_2968.jpg>
+Package pdftex.def Info: IMG_2968.jpg  used on input line 372.
+(pdftex.def)             Requested size: 258.75pt x 194.06929pt.
+ [8 <./set0.png> <./IMG_2968.jpg>] [9]) [10] (design.aux
+(intro.aux)) ) 
 Here is how much of TeX's memory you used:
- 12191 strings out of 492446
- 242138 string characters out of 3129601
- 290064 words of memory out of 3000000
- 16332 multiletter control sequences out of 15000+200000
+ 12201 strings out of 492446
+ 242271 string characters out of 3129601
+ 293075 words of memory out of 3000000
+ 16341 multiletter control sequences out of 15000+200000
  11833 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,54p,625b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.p
-fb>
-Output written on design.pdf (10 pages, 379256 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/latxfont/line10.pfb>
+Output written on design.pdf (12 pages, 442702 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
+ 118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
