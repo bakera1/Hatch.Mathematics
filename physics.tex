@@ -1,0 +1,68 @@
+\chapter{Physics}
+\label{ch:physics}
+
+\section{Overview}
+
+Looking at and thinking about circuits, we touched on some important conceptual differences between what we label as charge $Q$, current $I$ and resistance $R$. 
+
+We now know that charge is often assembled into nice packets; typically labelled or called electrons $ e^{-1}$ (other types of similar packets also exists). These are special bundles of energy that move around the place at different speeds; sometimes slow and sometimes much faster. We shouldn't get confused and think about electromagnetic radiation or photons when we think about electrons these are two different things. 
+Electrons as we know are much more typically found in the stable bound shells around the outsides of atomic nuclei (why don't they fall into the nucleus and or why don't all the electrons in an atom fall into the lowest shell?) than freely moving. But in some special materials electrons are less well bound and can be separated from outer shells quite easily by applying what we call a potential difference across the material. 
+
+\subsection{Potential difference \& Current}
+
+So how should we think most basically about potential difference, current and charge; how are these related to each other. Before we jump in and begin to look at any equations, let's first consider or think about what we mean as by  potential difference or voltage. Creating or applying a potential difference or voltage, is a little bit like tilting or raising a snooker table from one end; we introduce a bias or tendancy in the underlying field in this case the electro-magnetic field for charges to be displaced. Since we can't observe this induced field displacement we struggle to understand what this manifests; however we can feel a potential difference, normally as a result of an electric shock. (Why would we experience this has some simple and more complex answers?)
+
+
+With a raised or tilted snooker table any snooker balls at the raised end of the table will gradually begin to roll away towards the lower end, flowing towards the lower potential difference. As with all stuff in the universe, we can more generally say that everything is trying ultimately in similar ways to find the lowest energy state available. People sit, but would rather sleep and snooker balls want to similarly be in a lower more stable energy state. That is just the way the entire universe works, everything likes being in ground state energy. 
+
+So how and more importantly what does this mean for our snooker table, now we have a potential difference, we have raised one end and now we have our snooker balls or electrons in our conducting metal material similarly moving. Moving charge is then labelled as a current, or put another way the rate of change of charge moving we say is a measure of current. This is governed by the simple equation \eqref{eq:coulomb} where we measure current $I$ in Ampheres as the change in charge $Q$ measured in Coulombs that have passed a point on our snooker table in a certain time $T$ in seconds. 
+
+\begin{equation}
+ I = \frac{\delta Q}{\delta T} = \frac{Q}{T}
+\label{eq:coulomb}
+\end{equation}
+
+When our snooker balls roll across the green baise whilst relatively fricitionless, there is still some microscopic frictional forces that retard or hold back the snooker balls. This propensity of the medium to hold up the charge is known more generally as resistance and we measure this tendancy using the units of $\sigma$ or ohms. 
+
+Ohms law \eqref{eq:ohms} allows us to finally then link together voltage $V$, current $I$ and resistance $R$. This simple equation allows us to say many important things about circuits.
+
+\begin{equation}
+ V = IR
+\label{eq:ohms}
+\end{equation}
+
+\subsection{Circuits}
+
+We can plug different components together in loops also known as electrical circuits. These circuits can then be designed to exhibit a variety of complex behaviours including ultimately the computer circuit that I am using to write this document. These components have a variety of different symbols that allow us to see quickly the intended behaviour two important examples at the \pythoninline{Resistor} and \pythoninline{Variable Resistor} these are also shown below.
+
+\begin{figure}[h!]
+  \begin{center}
+    \begin{circuitikz}
+      \draw (0,0)
+      to[V,v=$V_q$] (0,2) % The voltage source
+      to[short] (2,2)
+      to[R=$R_1$] (2,0) % The resistor
+      to[short] (0,0);
+    \end{circuitikz}
+    \caption{Example circuit with potential difference and resistor.}
+  \label{dia:circuit}
+  \end{center}
+\end{figure}
+
+\begin{center}
+\begin{circuitikz} \draw
+(0,0) to[ variable cute inductor, l_=$R_R$ ] (2,0); 
+\end{circuitikz}
+\end{center}
+
+\begin{center}
+\begin{circuitikz} \draw
+(0,0) to[ resistor, l_=$R_R$ ] (2,0); 
+\end{circuitikz}
+\end{center}
+
+Rearranging Ohms law \eqref{eq:ohms} to \eqref{eq:ohms2} allows us to calculate the current $I$ flowing in circuit \ref{dia:circuit} by substituing known values from measurement.
+\begin{equation}
+ I  = \frac{V_{q}} {R_{1}} 
+\label{eq:ohms2}
+\end{equation}
