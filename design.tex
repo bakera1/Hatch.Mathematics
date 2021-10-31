@@ -5,7 +5,10 @@
 \usepackage{amsmath}
 \usepackage{booktabs}
 \usepackage{cancel}
- \usepackage{tikz}
+\usepackage{tikz}
+\usepackage{circuitikz}
+
+
 
 \def\firstcircle{(90:1.75cm) circle (2.5cm)}
 \def\secondcircle{(210:1.75cm) circle (2.5cm)}
@@ -34,13 +37,79 @@
 
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 
+
+
+% Default fixed font does not support bold face
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+
+ 
+
+% Custom colors
+
+\usepackage{color}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+\usepackage{listings}
+
+ 
+
+% Python style for highlighting
+\newcommand\pythonstyle{\lstset{
+language={Python},
+basicstyle=\ttfamily\footnotesize,
+columns=fullflexible,
+xleftmargin=.15in,
+commentstyle=\color[rgb]{0.13,0.54,0.13},
+otherkeywords={self},             % Add keywords here
+keywordstyle=\color{blue},
+emph={PositionView, Trade, Security,Position,FactRiskView, position, Current, Charge, Variable, Resistor},          % Custom highlighting
+emphstyle=\color{red},    % Custom highlighting style
+stringstyle=\color{deepgreen},
+frame=tb,                         % Any extra options here
+showstringspaces=false,            %
+postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+morekeywords={
+        query,
+        filter, time, ohms,
+                   all,
+                   Cheyne,
+                   STP,
+                   Pandas,
+                   Python,
+                   groupby,
+                  underlying\_positions,
+                   .,
+                   session\_scope
+    },
+}}
+
+ 
+
+% Python environment
+\lstnewenvironment{python}[1][]
+{
+\pythonstyle
+\lstset{#1}
+}
+{}
+
+ 
+
+% Python for inline
+\newcommand\pythoninline[1]{{\pythonstyle\lstinline!#1!}}
+
+% Python for external files
+\newcommand\pythonexternal[2][]{{
+\pythonstyle
+\lstinputlisting[#1]{#2}}}
+
 \begin{document}
 
 \begin{titlepage}
 
 \begin{center}
 
-\textsc{\Large Hatch Mathematics}\\[0.5cm]
+\textsc{\Large Hatch Mathematics \& Physics }\\[0.5cm]
 
 \HRule \\[0.4cm]
 {\huge \bfseries Tutorial Examples}\\[0.4cm]
@@ -61,7 +130,7 @@ Alexander \textsc{Baker}
 \end{flushright}
 \end{minipage}
 \\[4cm]
-\textsc{\LARGE Hatch Mathematics}\\[1.5cm]
+\textsc{\LARGE Hatch Mathematics \& Physics}\\[1.5cm]
 
 \vfill
 
@@ -82,5 +151,7 @@ Alexander \textsc{Baker}
 \newpage
 
 \include{intro}
+\include{physics}
+
 
 \end{document}
