@@ -508,13 +508,168 @@ One final note on unit conversion; is around the sense check that we must always
 \end{equation}
 
 
+\section{Equations}
 
-\section{Quadratic Equations}
+An equation of the form  $ y = mx + c $ is known as a linear equation, since the power in $ x $ is only 1, $ x^{1}$; compare to $ ax^{2} +bx + c = 0 $ which include a square term in $ x^{2} $ and is thus known as a quatratic equation. We are famililar with techniques to solve linear equations by separation of varables as shown in the \ref{eq:linear1} \& \ref{eq:linear2} below:
 
-A number of separate techniques exist for solving equations that are of the form $ ax^{2} +bx + c = 0 $ some methods are quite simple and others whilst less simple are more beautiful. None less beautiful than completing the square coupled with a geometic explanation as shown in the next section.
+\begin{equation} \label{eq:linear1}
+ x  - 2 = 0
+\end{equation}
+
+\begin{equation} \label{eq:linear2}
+ x  = 2
+\end{equation}
+
+A number of separate techniques exist for solving equations that are of the form $ ax^{2} +bx + c = 0 $ some methods are quite simple and others whilst less simple are perhaps more beautiful. None less beautiful than completing the square coupled with a geometic explanation as shown in the next section. We will keep this in our back pocket for now and instead focus on the less glamourous but essential factorisation technique.
+
+\subsection{Expanding Brackets}
+
+Factorising is the opposite (or inverse) operation (thing) to expanding brackets; so let's first remind outselves of the basic rules that allow us to expand or combine terms from bracketed equations. 
+
+Figure \ref{fig:foil} shows a common approach to expanding bracket using the $FOIL$, following in turn First, Outside, Inside \& last; it should therefore be possible to go back the otherway \& allow us to take the quadratic in this case $ 2x^{2} -2x - 12 = 0 $ and pack this back into the bracket. So how can we reliably train ourselves to perform this factorising operation?
+
+\begin{equation} \label{eq:factorise}
+  \left ( 2 x + 4 \right) \left ( x - 3 \right ) \rightarrow expand \rightarrow 2x^{2} -2x - 12
+\end{equation}
+
+\begin{equation} \label{eq:expand}
+  2x^{2} -2x - 12 \rightarrow factorise \rightarrow \left ( 2 x + 4 \right) \left ( x - 3 \right )
+\end{equation}
+
+As you can see applying \ref{eq:factorise} \& then \ref{eq:expand} gets us back to the same starting term.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{IMG_4365}
+    \caption{Expanding brackets using FOIL.}
+    \label{fig:foil}
+\end{figure}
+
+\subsubsection{More bracket expansion examples}
+
+It is important that we try some examples bothe with specific numbers and in general. 
+
+\begin{equation} 
+ 1. \left ( 5y + 3 \right ) \left ( y + 5 \right )
+\end{equation}
+
+\begin{equation} 
+ 2. \left ( x - 4 \right ) \left ( 3x -1 \right )
+\end{equation}
+
+\begin{equation} 
+ 3. \left ( x + 3 \right ) \left ( 4x -1 \right )
+\end{equation}
+
+\begin{equation} 
+ 4. \left ( 2a + 3 \right ) \left ( 3a + 4 \right )
+\end{equation}
+
+\begin{equation} 
+ 5. \left ( 2a - b \right ) \left ( 3a - 2b \right )
+\end{equation}
+
+You should also try and prove that you can expand and simplify as below. Remember to use the $ FOIL $ technique.
+
+\begin{equation} 
+ \left ( ax + b \right )^{2} = \left ( ax + b \right ) \times \left ( ax + b \right ) = a^{2}x^{2} + 2abx + b^{2}
+\end{equation}
+
+\begin{equation} 
+ \left ( ax - b \right )^{2} = \left ( ax - b \right ) \times \left ( ax - b \right ) = a^{2}x^{2} - 2abx + b^{2}
+\end{equation}
+
+\begin{equation} 
+ \left ( ax + b \right ) \times \left ( ax - b \right ) = a^{2}x^{2} - b^{2}
+\end{equation}
+
+\subsubsection{Harder expansions}
+
+In order to complete below you need to systematically expand each term in the first bracket with each term in the second bracket before you then need to count and group like terms in powers of x.
+
+\begin{equation} 
+ \left ( x - 2 \right ) \times \left ( x^{2} - x + 5 \right ) = x^{3} - x^{2} + 5x - 2x^{2} + 2x - 10 = x^{3} - 3x^{2} + 7x - 10
+\end{equation}
+
+More examples to try as below:
+
+\begin{equation} 
+ 1. \left ( x - 2 \right ) \times \left ( x^{2} + x + 1 \right ) 
+\end{equation}
+
+\begin{equation} 
+ 2. \left ( 2x - 1 \right )^{2} \times \left ( x + 1 \right ) 
+\end{equation}
+
+\begin{equation} 
+ 3. \left ( 3x - 2 \right ) \times \left ( 2x + 5 \right ) \times \left ( 4x - 1 \right ) 
+\end{equation}
+
+\subsection{Factorising}
+
+Now that we have mastered the ability to expand brackets; we can turn our attention to the action that is the opposite; starting with a quadratic and converting these into two bracketed terms.
+
+\begin{equation} \label{eq:expand}
+  x^{2} -5x + 6 \rightarrow factorise \rightarrow \left ( ... \right) \left ( ... \right )
+\end{equation}
+
+In this case we have a quadratic $ x^{2}$ which means that we will have two roots or solutions for x; this means we can write a basic starting point as below:
+
+\begin{equation} \label{eq:expand}
+  x^{2}-5x + 6 \rightarrow factorise \rightarrow \left ( x ... \right) \left ( x ... \right )
+\end{equation}
+
+The $x$ term in each bracket can only be $x$ or $x^{1}$ since at most we can multiple two of these terms to arrive back at $x^{2}$. Factors of 6 include $ 6 \times 1 $ or $ 2 \times 3$; checking the coefficient (number before) $x$ tells us that the sum of these must equal 5; which means that we must use $ 2 \times 3$.
+
+\begin{equation} \label{eq:expand}
+  x^{2}-5x + 6 \rightarrow factorise \rightarrow \left ( x - 2 \right) \left ( x - 3 \right )
+\end{equation}
+
+You can now check by expanding and simplifying to see if we get back to the original equation.
+
+\begin{equation} \label{eq:expand}
+  \left ( x - 2 \right) \left ( x - 3 \right ) = x^{2} -3x -2x +6 = x^{2} -5x +6
+\end{equation}
+
+More factorising examples
+
+\begin{equation} 
+ 1)  4x^{2} - 9
+\end{equation}
+
+\begin{equation} 
+ 2)  x^{2} + 11x + 28
+\end{equation}
+
+\begin{equation} 
+ 3)  x^{2} - 2x + 1
+\end{equation}
+
+\begin{equation} 
+ 4)  2x^{2} - 3x + 1
+\end{equation}
+
+\begin{equation} 
+ 5)  x^{2} - 1
+\end{equation}
+
+\subsubsection{Harder factorising}
+
+When the number of possible combinations of terms for the brackets increases, common sense considerations can help to redsuce the possibilities. For example, if the coefficient of x in the quadratic is odd, then there must be an even and an odd number in the brackets.
+
+\begin{equation} 
+ 1)  6x^{2} +x -12
+\end{equation}
+
+\begin{equation} 
+ 2)  x^{2} -y^{2}
+\end{equation}
+
+\begin{equation} 
+ 3)  7x^{2} -5x - 150
+\end{equation}
 
 \subsection{Completing the Square}
-
 
 \begin{figure}[h]
     \centering
@@ -529,3 +684,4 @@ A number of separate techniques exist for solving equations that are of the form
     \caption{Two set examples}
     \label{fig:example1}
 \end{figure}
+
